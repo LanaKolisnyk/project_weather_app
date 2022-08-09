@@ -1,0 +1,55 @@
+.container {
+  display: block;
+  width: 80%;
+
+  margin: 0 auto;
+  padding: 30px 55px;
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+}
+.input-group {
+  width: 80%;
+}
+ul {
+  list-style-type: disc;
+
+  padding: 0;
+  font-size: 20px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+header {
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+}
+.kyiv-today {
+  color: blue;
+  font-size: 50px;
+}
+.today-temp {
+  font-size: 50px;
+}
+h3 {
+  font-size: 40px;
+}
+.weather-day {
+  font-size: 25px;
+}
+.weather-icon {
+  font-size: 40px;
+  color: blue;
+}
+.temperature {
+  font-size: 30px;
+}
