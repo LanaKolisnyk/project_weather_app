@@ -32,6 +32,8 @@ function cityWeather(response) {
   let tempNow = document.querySelector("#tempnow");
   let temperature = Math.round(response.data.main.temp);
   tempNow.innerHTML = temperature;
+  let humidity = document.querySelector("#humidity");
+  humidity.innerHTML = response.data.main.humidity;
 }
 
 function displayCity(event) {
